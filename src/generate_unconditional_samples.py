@@ -75,6 +75,7 @@ def sample_model(
                 print("=" * 40 + " SAMPLE " + str(generated) + " " + "=" * 40)
                 print(text)
 
+
 if __name__ == '__main__':
     fire.Fire(sample_model)
 
